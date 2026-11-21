@@ -1,0 +1,59 @@
+[
+  {
+    "id": "C1",
+    "channel": "两面小折页",
+    "units": [
+      {
+        "unit": "外1",
+        "budget": 95,
+        "independent": true
+      },
+      {
+        "unit": "背2",
+        "budget": 80,
+        "independent": true
+      }
+    ],
+    "priority": [
+      "主问二",
+      "主问一",
+      "图例"
+    ]
+  },
+  {
+    "id": "C2",
+    "channel": "电子朗读",
+    "units": [
+      {
+        "unit": "片段甲",
+        "budget": 135,
+        "independent": true
+      },
+      {
+        "unit": "选读乙",
+        "budget": 90,
+        "independent": false
+      }
+    ],
+    "priority": [
+      "主问一",
+      "主问二",
+      "图例"
+    ]
+  },
+  {
+    "id": "C3",
+    "channel": "单张资讯",
+    "units": [
+      {
+        "unit": "正",
+        "budget": 55,
+        "independent": true
+      }
+    ],
+    "priority": [
+      "主问二",
+      "主问一"
+    ]
+  }
+]
