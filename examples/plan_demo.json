@@ -1,0 +1,86 @@
+{
+  "decisions": [
+    {
+      "block": "L3",
+      "marker": "上列",
+      "target": "L1",
+      "note": "“上列情形”为跨栏回指左栏主问一的例外清单，几何最近的L2是同栏例子而非先行块；主问二沿用该情形限制"
+    },
+    {
+      "block": "L4",
+      "marker": "接续",
+      "target": "L3",
+      "note": "接续块的箭头与几何邻近均指向主问二；语言锚点“原凭据”与背2注二同词，经核对为同一携带要求，读序接在L3之后"
+    }
+  ],
+  "assignments": [
+    {
+      "channel": "C1",
+      "unit": "外1",
+      "source_ref": ["L3", "L4"],
+      "text": "名字写错可以提请求，暂不在现场改，要带原凭据。",
+      "note": "narrowed:只保留主问二及其携带要求，例子撤下"
+    },
+    {
+      "channel": "C1",
+      "unit": "外1",
+      "source_ref": ["L1", "L2"],
+      "text": "居民可到服务台问登记信息；借住家属可问情况，代办怎么办见背面注二。"
+    },
+    {
+      "channel": "C1",
+      "unit": "外1",
+      "block": "L6",
+      "role": "support",
+      "note": "必要注释就地随单元可查，回应L2的跨页跳转"
+    },
+    {
+      "channel": "C1",
+      "unit": "背2",
+      "block": "L5"
+    },
+    {
+      "channel": "C1",
+      "unit": "背2",
+      "block": "L6"
+    },
+    {
+      "channel": "C1",
+      "unit": "背2",
+      "block": "L7"
+    },
+    {
+      "channel": "C2",
+      "unit": "片段甲",
+      "copy": "E1",
+      "source_ref": ["L1", "L2", "L6"]
+    },
+    {
+      "channel": "C2",
+      "unit": "片段甲",
+      "block": "L6",
+      "role": "support"
+    },
+    {
+      "channel": "C2",
+      "unit": "选读乙",
+      "copy": "E2",
+      "source_ref": ["L3", "L4"]
+    },
+    {
+      "channel": "C3",
+      "unit": "正",
+      "source_ref": ["L3"],
+      "text": "名字写错可提请求，暂不现场改。",
+      "note": "narrowed:尺寸不足，取更狭义而仍真实的说法"
+    },
+    {
+      "channel": "C3",
+      "unit": "正",
+      "source_ref": ["L1"],
+      "withdraw": true,
+      "pointer_text": "登记信息咨询请向服务台询问。",
+      "note": "整段撤下，给出询问处"
+    }
+  ]
+}
